@@ -1,0 +1,203 @@
+/* === Layout Containers === */
+.container {
+  min-height: 100vh; /* fills the screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 480px; /* right panel wider */
+  background: white;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  width: 1200px;    /* total width */
+  height: 700px;    /* reduced height */
+  margin-top: 67px;
+  left: 64px;
+}
+
+/* === Left Side (Form Area) === */
+.left {
+  padding: 48px;
+}
+
+/* === Right Side (Blue Panel) === */
+.right {
+  background: #0033CF;
+  color: #FFFFFF;
+  border-radius: 24px;
+}
+
+/* === Hero Section Inside Right Panel === */
+.hero {
+  height: 700px; /* same as card height */
+  background: #1e3a8a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  left: -728px; /* create gap showing white background */
+}
+
+/* === Hero Text & Illustration === */
+.logoSmall {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.heroTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.heroSubtitle {
+  opacity: 0.9;
+}
+
+.illustration {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.avatar {
+  width: 120px;
+  height: 160px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+/* === Form Content === */
+.loginInner {
+  max-width: 624px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  background: #ffffff;
+  padding: 10px 14px;
+  margin-left: 300px;
+}
+
+/* === Text === */
+.title {
+  font-size: 24px;
+  margin-top: 8px;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+}
+
+.subtitle {
+  color: #8e98a8;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* === Input Fields === */
+.label {
+  font-size: 14px;
+  color: #222222;
+  font-weight: 600;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 0.5px solid #dedede;
+  border-radius: 4px;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8e98a8;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.input:focus {
+  border-color: #0b5cff;
+  box-shadow: 0 0 0 3px rgba(11, 92, 255, 0.1);
+}
+
+/* === Password Field === */
+.passwordWrapper {
+  position: relative;
+}
+
+.eyeBtn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.inputError {
+  border-color: #ef4444;
+}
+
+.errorText {
+  color: #ef4444;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+/* === Links & Buttons === */
+.forgot {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0033c7;
+  margin-left: 517px;
+}
+
+.primaryBtn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 160px;
+  background: #0033c7;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* === Footer Text === */
+.signupText {
+  text-align: center;
+  margin-top: 10px;
+  color: #574f4f;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.create {
+  color: #0033c7;
+}

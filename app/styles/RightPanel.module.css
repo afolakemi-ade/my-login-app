@@ -1,0 +1,73 @@
+.hero {
+  min-height: 700px;
+  background: #0033c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  /* position: relative; */
+  left: -728px; /* shift to the left */
+  border-radius: 24px;
+}
+
+
+.logoSmall {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 16px;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.heroTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.heroSubtitle {
+  opacity: 0.9;
+  font-size: 16px;
+  font-weight: 400;
+  color: #F2F4F7;
+}
+.en{
+    width: 99px;
+    height: 32px;
+    border-radius: 8px;
+    /* padding: 6px 8px; */
+    color:#FFFFFF;
+    box-shadow: #0033c7;
+    margin-left: 40px;
+    /* background-color: darkblue; */
+}
+
+.flagpackButton{
+    margin-left: 80px;
+    margin-top:10px;
+}
+.illustration {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.fonte{
+    margin-top:11px;
+}
+.flags {
+  padding-left: 10px;
+  position: relative;
+  top: 12px; /* Adjust the value to move it lower */
+}
+.ee{
+    text-align: center;
+    margin-left: 10px;
+    position: relative;
+    top: -8px
+}
+
+.man{
+    margin-bottom: -26px;
+    margin-left: 190px;
+}
