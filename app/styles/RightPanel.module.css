@@ -58,7 +58,7 @@
 .flags {
   padding-left: 10px;
   position: relative;
-  top: 12px; /* Adjust the value to move it lower */
+  top: 12px;
 }
 .ee{
     text-align: center;
