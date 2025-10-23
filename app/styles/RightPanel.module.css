@@ -1,5 +1,5 @@
 .hero {
-  min-height: 700px;
+  height: 814px;
   background: #0033c7;
   display: flex;
   flex-direction: column;
@@ -47,11 +47,7 @@
     margin-left: 80px;
     margin-top:10px;
 }
-.illustration {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
+
 .fonte{
     margin-top:11px;
 }
@@ -68,6 +64,7 @@
 }
 
 .man{
-    margin-bottom: -26px;
+    margin-bottom: 10px;
     margin-left: 190px;
+    margin-bottom: 80px;
 }

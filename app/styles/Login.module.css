@@ -2,9 +2,10 @@
 .container {
   min-height: 100vh; 
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   background: #ffffff;
+  /* margin-top: -60px; */
 }
 
 .card {
@@ -85,7 +86,8 @@
 
 
 .loginInner {
-  max-width: 624px;
+  width: 624px;
+  height: 780px;
 }
 
 .brand {
@@ -179,8 +181,8 @@
 .primaryBtn {
   width: 100%;
   padding: 12px;
-  margin-top: 160px;
-  background: #0033c7;
+  margin-top: 240px;
+  background:#0033c7;
   border: none;
   color: #ffffff;
   border-radius: 8px;

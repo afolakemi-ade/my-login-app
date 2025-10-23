@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import styles from '../styles/Login.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Eye, EyeOff } from 'lucide-react'; 
 
 export default function LoginForm() {
@@ -23,11 +24,9 @@ export default function LoginForm() {
 
   return (
     <div className={styles.loginInner}>
-      <div className={styles.brand}>
         <div className={styles.logo}>
           <Image src="/Union.svg" alt="logo" width={13.4} height={20.86} />
         </div>
-      </div>
 
       <h1 className={styles.title}>Welcome back</h1>
       <p className={styles.subtitle}>Sign in to your account</p>
@@ -66,18 +65,21 @@ export default function LoginForm() {
 
         {error && <div className={styles.errorText}>{error}</div>}
 
-        <div className={styles.row}>
-          <a className={styles.forgot} href="#">
-            Forgot Password?
-          </a>
-        </div>
+      <div className={styles.row}>
+  <Link href="/forgotPassword" className={styles.forgot}>
+    Forgot Password?
+  </Link>
+</div>
+
 
         <button className={styles.primaryBtn} type="submit">
           Sign in
         </button>
 
         <p className={styles.signupText}>
-          Don't have an account? <a href="#" className={styles.create}>Create Account</a>
+          Don't have an account?  <Link href="/signIn" className={styles.create}>
+    Create new account
+  </Link>
         </p>
       </form>
     </div>
