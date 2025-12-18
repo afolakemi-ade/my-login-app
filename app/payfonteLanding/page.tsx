@@ -41,7 +41,7 @@ export default function payfonteLanding(){
             </div>
             <div className={styles.header}>
               <div className={styles.logo}>
-                <Image src="/union.svg" alt="logo" width={24} height={3} />
+                <Image src="/Union.svg" alt="logo" width={24} height={3} />
               </div>
               <div className={styles.payfonte}>Payfonte</div>
             </div>
@@ -59,7 +59,7 @@ export default function payfonteLanding(){
                 <div className={styles.stardiv}>
                   <div>
                     <Image
-                      src="/star 1.svg"
+                      src="/Star.svg"
                       alt="star"
                       width={12}
                       height={12}
@@ -262,7 +262,7 @@ export default function payfonteLanding(){
               </div>
               <div>
                 <Image
-                  src="/mob 1.svg"
+                  src="/Mob.svg"
                   alt="mob"
                   width={250}
                   height={619}
