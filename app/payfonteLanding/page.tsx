@@ -224,7 +224,7 @@ export default function payfonteLanding(){
               </div>
               <div>
                 <Image
-                  src="/mob 1.svg"
+                  src="/mob.svg"
                   alt="mob"
                   width={250}
                   height={619}
@@ -243,7 +243,7 @@ export default function payfonteLanding(){
               </div>
               <div>
                 <Image
-                  src="/mob 1.svg"
+                  src="/mob.svg"
                   alt="mob"
                   width={250}
                   height={619}
