@@ -50,16 +50,12 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
             name="email"
             value={form.email}
             onChange={handleChange}
-            placeholder="samle@mail.com"
+            placeholder="sample@mail.com"
             className={styles.input}
             required
           />
-         
+        <button type="submit" className={styles.btn}>
           
-
-
-        
-          <button type="submit" className={styles.btn}>
             Send
           </button>
         </form>

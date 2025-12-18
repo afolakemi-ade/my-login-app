@@ -2,6 +2,11 @@
   position: relative;
   display: inline-block;
 }
+.dropdown img {
+  width: auto;
+  height: auto; 
+}
+
 
 .toggle {
   display: flex;
@@ -20,6 +25,11 @@
   align-items: center;
   gap: 6px;
 }
+.flagContainer img {
+  width: 24px;
+  height: auto;
+}
+
 
 .code {
   font-size: 14px;

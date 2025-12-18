@@ -29,7 +29,7 @@ export default function CountrySelector() {
     <div className={styles.dropdown}>
       <button onClick={toggleDropdown} className={styles.toggle}>
         <div className={styles.flagContainer}>
-          <Image src={selected.flag} alt={selected.name} width={24} height={18} />
+          <Image src={selected.flag} alt={selected.name} width={24} height={18} style={{ width: 'auto', height: 'auto' }}/>
           <span className={styles.code}>{selected.code}</span>
         </div>
 
@@ -47,7 +47,7 @@ export default function CountrySelector() {
               onClick={() => selectCountry(country)}
               className={styles.menuItem}
             >
-              <Image src={country.flag} alt={country.name} width={24} height={18} />
+              <Image src={country.flag} alt={country.name} width={24} height={18} style={{ width: 'auto',  height: 'auto' }} />
               <span>{country.code}</span>
             </li>
           ))}

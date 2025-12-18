@@ -53,4 +53,9 @@ min-height: 90vh;
   border-radius: 10px;
   margin-left: 728px; /* This gives the 728px space between them */
 }
+html,
+body {
+  background-color: #ffffff;
+  min-height: 100%;
+}
 

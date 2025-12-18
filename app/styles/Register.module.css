@@ -10,7 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 680px;
+  width: 90%;
+  max-width: 680px;
   height: 800px;
   padding: 2rem;
   border-radius: 12px;
@@ -93,6 +94,7 @@
   font-family: 600;
   margin-top: 100px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .passwordContainer {
@@ -111,6 +113,9 @@
   font-size: 14px;
   outline: none;
   color: #8E98A8;
+  position: relative;
+  z-index: 1;
+  box-sizing:border-box;
 }
 
 .showPasswordToggle {
@@ -142,6 +147,7 @@
   align-items: center;
   justify-content: center;
   color: #8E988E;
+  z-index: 2;
 }
 .checkboxContainer {
   display: flex;
@@ -183,4 +189,15 @@
 }
 .loginLink{
     color: #0033C7;
+}
+.nameGroup {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .nameGroup {
+    flex-direction: column; /* stack first & last name vertically */
+  }
 }

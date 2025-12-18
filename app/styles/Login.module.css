@@ -198,8 +198,17 @@
   color: #574f4f;
   font-size: 14px;
   font-weight: 600;
+  
 }
 
 .create {
   color: #0033c7;
+}
+.loader {
+  border-top: 2px solid #0033c7; 
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  margin-left: 2px;
 }
