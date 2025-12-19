@@ -1,10 +1,17 @@
-/* app/landing/landing.module.css */
+
 
 .container {
   min-height: 100vh;
-  background-color: white;
-  padding: 20px 20px 40px; /* creates space INSIDE container */
+  background-color: #ffffff;
+  padding: 20px 20px 40px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-bricolage), sans-serif;
 }
+
 
 
 .title {
@@ -18,10 +25,10 @@
   background: transparent;
   border-radius: 8px;
   margin-top: 10px;
-
+padding: 6px 12px;
   display: flex;
   align-items: center;
-  gap: 6px; /* spacing between flag and text */
+  gap: 6px;
   margin-right: auto;
 }
 .button2{
@@ -33,12 +40,14 @@
   margin-top: 10px;
    display: flex;
   align-items: center;
-  gap: 6px; /* spacing between flag and text */
+  gap: 6px; 
   margin-left: 16px;
+  max-width: 100%;
+    height: auto;
 
 }
 .flag{
-    margin-left: 8px;
+    margin-left: 4px;
 }
 .ngn{
     font-size: 14px;
@@ -48,6 +57,9 @@
 }
 .head{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 .en{
     font-size: 14px;
@@ -65,7 +77,8 @@
     margin-left: 550px;
     margin-top: 6px;
     width: 14.13px;
-    height: 24px;
+    max-width: 100%;
+    height: auto;
 }
 .header{
     display: flex;
@@ -81,7 +94,7 @@
     margin-top: 6px; 
 }
 .blue{
-    width: 204px;
+    width: max-content;
     height: 51px;
     background-color: #0033C7;
     border-radius: 8px;
@@ -90,9 +103,10 @@
      font-size: 16px;
      font-weight: 500;
      margin-left: 530px;
+     padding: 12px 24px;
 }
 .subcontainer{
-    width:1600px;
+    width:100%;
     height: 910px;
     margin-left: 18px;
     border-radius: 24px;
@@ -100,17 +114,37 @@
     margin-top: 20px;
     padding-top: 15px;
     display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
 }
 .stick{
     margin-left: 260px;
-    height: 1000px;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 30;
+    top: 10;
     
+}
+.stic{
+    margin-left: 30px;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    right: 290;
+    top: 10;
+   
 }
 .sticks{
     margin-top: 40px;
+    width: 100%;
+    height: auto;
 }
 .stickss{
 margin-top: 40px;
+max-width: 100%;
+    height: auto;
 }
 .stardiv{
     border-radius: 32px;
@@ -124,6 +158,8 @@ margin-top: 40px;
 .star{
     margin-left: 10px;
     margin-top: 8px;
+    max-width: 100%;
+    height: auto;
 }
 .bars{
     font-size: 12px;
@@ -144,7 +180,7 @@ margin-top: 40px;
     font-family: 600;
     font-family: var(--font-bricolage), sans-serif;
     color:#00000063;
-    margin-left: 300px;
+   
 }
 .open1{
     font-size: 64px;
@@ -169,7 +205,8 @@ margin-top: 40px;
     font-weight: 400;
     color: #00000066;
     font-family: var(--font-bricolage), sans-serif;
-    margin-left: 160px
+    margin-left: 160px;
+    display: inline;
 }
 .bluee{
     width: 204px;
@@ -201,7 +238,9 @@ margin-top: 40px;
 }
 .food{
       margin-left: 80px;
-    margin-top: 150px
+    margin-top: 150px;
+        max-width: 100%;
+    height: auto;
 }
 .winefood{
     display:flex
@@ -218,6 +257,8 @@ margin-top: 40px;
     margin-left: 450px;
     margin-top: 100px;
     margin-bottom: 90px;
+    max-width: 100%;
+    height: auto;
 }
 .whyy{
     font-weight: 600;
@@ -234,6 +275,7 @@ margin-top: 40px;
     background-color:#FFFFFF;
     margin-top: 100px;
     margin-left: 170px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 .subcontainer1{
     display:flex;
@@ -249,6 +291,7 @@ margin-top: 40px;
     background-color:#FFFFFF;
     margin-top: 100px;
     margin-left: 40px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 .box3{
     width:274px;
@@ -258,6 +301,7 @@ margin-top: 40px;
     background-color:#FFFFFF;
     margin-top: 20px;
     margin-left: 780px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 .box4{
     width:274px;
@@ -267,6 +311,7 @@ margin-top: 40px;
     background-color:#FAFAFA;
     margin-top: 20px;
     margin-left: 40px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 .smallbox{
     width: 52px;
@@ -280,6 +325,8 @@ margin-top: 40px;
 .pizza{
     margin-left: 120px;
     margin-top: -42px;
+    max-width: 100%;
+    height: auto;
 }
 .smallbox2{
     width: 52px;
@@ -321,7 +368,8 @@ margin-top: 40px;
     font-size: 32px;
     font-weight: 600;
     color: #00000063;
-    margin-left: 400px;
+    margin-left: 4px;
+    text-align: center;
      font-family: var(--font-bricolage), sans-serif;
 }
 .boxx{
@@ -331,6 +379,7 @@ margin-top: 40px;
     background-color:#0033C7;
     margin-left: 270px;
     margin-top: 80px;
+   
 }
 .boxxx{
     width: 1107px;
@@ -339,6 +388,7 @@ margin-top: 40px;
     background-color:#17C700;
     margin-left: 270px;
     margin-top: -380px;
+   
 }
 .boxxxx{
     width: 1107px;
@@ -347,6 +397,7 @@ margin-top: 40px;
     background-color:#C74900;
     margin-left: 270px;
     margin-top: -380px;
+   
 }
 .boxxxxx{
     width: 1107px;
@@ -355,11 +406,17 @@ margin-top: 40px;
     background-color:#C700A6;
     margin-left: 270px;
     margin-top: -380px;
+     /* position: absolute;
+    max-width: 100%; */
 }
+.boxx { background-color: #0033C7; z-index: 4; top: 0; }
+.boxxx { background-color: #17C700; z-index: 3; top: 20px; }
+.boxxxx { background-color: #C74900; z-index: 2; top: 40px; }
+.boxxxxx { background-color: #C700A6; z-index: 1; top: 60px;}
 .gins{
     margin-top: 40px;
     margin-left: -80px;
-    /* width: 388.67px; */
+ 
 }
 .two{
  font-size: 400px;
@@ -371,6 +428,7 @@ margin-top: 40px;
 }
 .pink{
     display: flex;
+   
 }
 .subpink{
     font-size: 24px;
@@ -489,4 +547,127 @@ margin-top: 80px;
 .mob{
     margin-left: 30px;
     margin-top: 47px;
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+  .subcontainer,
+  .boxx,
+  .boxxx,
+  .boxxxx,
+  .boxxxxx {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blue,
+  .bluee,
+  .white {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+
+  
+  body {
+    overflow-x: hidden;
+  }
+
+ 
+  .subcontainer {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .subcontainer1,
+  .subcontainer2 {
+    width: 100%;
+  }
+
+ 
+  .boxx,
+  .boxxx,
+  .boxxxx,
+  .boxxxxx {
+    width: 90%;
+    height: auto;
+    margin: 40px auto;
+  }
+
+ 
+  .open,
+  .open1,
+  .opens {
+    font-size: 42px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .note,
+  .note1,
+  .with {
+    margin-left: 0;
+    text-align: center;
+  }
+
+
+  .blue,
+  .bluee,
+  .white {
+    margin: 20px auto;
+    display: block;
+  }
+
+
+
+  
+  .stick,
+  .wine,
+  .food,
+  .drink,
+  .gins,
+  .mob {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  
+  .fourboxes,
+  .motherbox,
+  .winefood {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box,
+  .box2,
+  .box3,
+  .box4,
+  .firstofthree,
+  .secondofthree {
+    margin-left: 0;
+  }
+
+  
+  .why,
+  .whyy,
+  .feature,
+  .features {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  
+  .two {
+    font-size: 180px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 5px;
+  }
 }
